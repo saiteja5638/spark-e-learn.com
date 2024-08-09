@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    background-color: #333;
+    padding: 1rem; 
+    background: linear-gradient(90deg,#694EDE 1%,#4e80de 40%);
     color: white;
   }
   
@@ -47,7 +47,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #444;
+    background: linear-gradient(90deg,#694EDE 1%,#4e80de 40%);
     width: 100%;
     text-align: left;
   }
@@ -60,7 +60,7 @@
   }
   
   .dropdown-menu a:hover {
-    background-color: #555;
+    background: linear-gradient(90deg,#694EDE 1%,#4e80de 40%);
   }
   
   .dropdown-menu.show {
@@ -75,7 +75,7 @@
       position: absolute;
       top: 60px;
       right: 0;
-      background-color: #333;
+      background: linear-gradient(90deg,#694EDE 1%,#4e80de 40%);
       width: 100%;
       text-align: center;
     }
@@ -92,10 +92,15 @@
   
     .nav-links li {
       margin: 0;
+      
     }
   
     .menu-toggle {
       display: block;
+      background: linear-gradient(90deg,#694EDE 1%,#4e80de 40%);
+      color: white;
+      border: 0;
+      
     }
   }
   
