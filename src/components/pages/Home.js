@@ -11,8 +11,8 @@ const Home = () => {
       <div className='Hero_main_container'  >
         <div className='Hero_page'  >
           <div className='Hero_sub_page' >
-            <h1 id="hero-callout" >Learn how to code from scratch.</h1>
-            <h3 >Premium Programming Courses</h3>
+            <h1 id="hero-callout" >Empower Your Skills: Learn, Build, and Buy Projects</h1>
+            <h3 >Premium Programming Courses and Projects Available</h3>
             <br></br>
             <img src="//s3.us-east-2.amazonaws.com/upskill-school/coding.png" class="coding-img img-fluid" alt=""></img>
           </div>
@@ -20,8 +20,8 @@ const Home = () => {
         <div className='Hero_Sub' >
           <div className='Hero_Sub2' >
             <blockquote class="blockquote">
-              <h2 class="mb-3">Upskill is a high-quality tech training platform.</h2>
-              <h3>Learn fundamental and state-of-the-art programming skills using modern technologies.</h3>
+              <h2 class="mb-3">Empower your future with hands-on projects and cutting-edge courses. </h2>
+              <h3>Whether you're looking to buy the perfect project or learn new skills, our platform is your gateway to success. Start your journey today and turn your ideas into reality!</h3>
             </blockquote>
           </div>
         </div>

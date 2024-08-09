@@ -101,6 +101,8 @@
       display: flex;
       flex-direction: column;
       padding: 0;
+      position: relative;
+      left: 100px;
     }
   
     .nav-links li {
