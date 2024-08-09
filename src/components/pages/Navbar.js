@@ -24,9 +24,9 @@ const Navbar = () => {
                 </div>
                 <nav className={`nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><a href="#home">About</a></li>
-                        <li><a href="#about">Projects</a></li>
-                        <li><a href="#contact">Courses</a></li>
+                        <li><a href="/creater">About</a></li>
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/Courses">Courses</a></li>
                     </ul>
                 </nav>
                 <button className="menu-toggle" onClick={toggleMobileMenu}>
