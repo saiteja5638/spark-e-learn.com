@@ -16,12 +16,17 @@ const Navbar = () => {
     return (
         <div className="app">
             <header className="navbar">
-                <div className="logo">Logo</div>
+                <div className="logo">
+                    <span class="material-symbols-outlined">
+                        trending_up
+                    </span>
+                    <a href='/' >LevelUp</a>
+                </div>
                 <nav className={`nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home">About</a></li>
+                        <li><a href="#about">Projects</a></li>
+                        <li><a href="#contact">Courses</a></li>
                     </ul>
                 </nav>
                 <button className="menu-toggle" onClick={toggleMobileMenu}>

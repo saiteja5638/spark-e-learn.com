@@ -10,10 +10,17 @@
   .logo {
     font-size: 1.5rem;
   }
-  
+  .logo a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+    cursor: pointer;
+  }
   .nav-links {
     display: flex;
     gap: 1rem;
+    position: relative;
+    left: -100px;
   }
   
   .nav-links ul {
@@ -27,6 +34,12 @@
   .nav-links li a {
     color: white;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 500ms;
+  }
+  .nav-links li a:hover{
+    color: rgb(199, 213, 226);
   }
   
   /* Dropdown styles */
