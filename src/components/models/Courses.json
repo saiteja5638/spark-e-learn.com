@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Web Development",
+        "description": "This Web Development combo course covers HTML, CSS, and JavaScript. It provides real-time career opportunities for web development, preparing students for roles such as front-end developer, web designer, and full-stack developer. The course includes hands-on projects and real-world applications to ensure practical knowledge and job readiness.",
+        "courses": "HTML, CSS, JavaScript",
+        "img1": "https://miro.medium.com/v2/resize:fit:1200/0*M4bxiCIjcTK-2Xr6.jpeg",
+        "img2": "https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg",
+        "img3": "https://www.creative-tim.com/blog/content/images/size/w960/2022/01/which-development-job-is-right-for-you.jpg"
+    },
+    {
+        "id": 2,
+        "title": "MERN Stack Development",
+        "description": "The MERN Stack Development course includes MongoDB, Express.js, React.js, and Node.js. This course is designed to equip students with the skills needed to build full-stack applications. It offers real-time career opportunities for full-stack developers, back-end developers, and front-end developers, emphasizing hands-on projects and real-world applications.",
+        "courses": "MongoDB, Express.js, React.js, Node.js",
+        "img1": "https://miro.medium.com/v2/resize:fit:1030/1*AWOohKIQ_FGJrIb6VNKsdA.jpeg",
+        "img2": "https://nextbridgeinstitute.com/wp-content/uploads/2021/03/How-to-Master-Mern-Stack-Development.jpg",
+        "img3": "https://e1.pxfuel.com/desktop-wallpaper/411/249/desktop-wallpaper-be-your-awesome-mern-stack-developer-by-nishant08111-mern-stack.jpg"
+    },
+    {
+        "id": 3,
+        "title": "SAP BTP Development",
+        "description": "The SAP BTP Development course covers SAP Business Technology Platform services and tools. Students will learn about SAP CAPM, SAP UI5, and SAP Fiori. This course prepares students for roles such as SAP developer, SAP consultant, and SAP architect, offering real-time career opportunities and hands-on projects to ensure practical knowledge.",
+        "courses": "SAP CAPM, SAP UI5, SAP Fiori",
+        "img1": "https://a5econsulting.com/wp-content/uploads/2023/10/Artboard-2-copy-jpg.webp",
+        "img2": "https://nttdata-solutions.com/wp-content/usermedia/Image-picture-click-on-cloud-icon-20230405-GLO-EN-1530x750.jpg",
+        "img3": "https://gulfbusiness.com/wp-content/uploads/2022/05/602016480323723712-740x494.png"
+    },
+    {
+        "id": 4,
+        "title": "SAP ABAP Development",
+        "description": "The SAP ABAP Development course includes ABAP programming, ABAP on HANA, and ABAP RESTful programming. This course prepares students for roles such as ABAP developer, SAP technical consultant, and SAP HANA developer. It offers real-time career opportunities and practical projects to ensure comprehensive understanding and job readiness.",
+        "courses": "ABAP Programming, ABAP on HANA, ABAP RESTful Programming",
+        "img1": "https://media.licdn.com/dms/image/D4D12AQGdD2j0SvPz-Q/article-cover_image-shrink_720_1280/0/1680332205498?e=2147483647&v=beta&t=-PlhJLyqmOruaXCj0U_Y19OkzVa82HAVecsBfw0eyy4",
+        "img2": "https://www.cromacampus.com/public/uploads/Blog/2022/11/week_3/SAP_ABAP_architecture_-_Max.webp",
+        "img3": "https://media.licdn.com/dms/image/C4E12AQHJR5ZJP0z_WA/article-cover_image-shrink_600_2000/0/1520225784188?e=2147483647&v=beta&t=fCbjqwQTJKRuvPVNeXnKzr3LDugQGTtAtNuA-GkYLyM"
+    }
+]
