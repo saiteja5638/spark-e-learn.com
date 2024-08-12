@@ -7,6 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import { redirect } from 'react-router-dom';
 export default function Services() {
   return (
     <>
@@ -19,6 +20,7 @@ export default function Services() {
             <CardActionArea>
               <CardMedia
                 component="img"
+                
                 className='Proj_container_item'
                 height="140"
                 image={item.img1}
@@ -26,9 +28,6 @@ export default function Services() {
                 
               />
               <CardContent>
-                {/* <Typography gutterBottom variant="h5" component="div">
-                Lizard
-              </Typography> */}
                 <Typography variant="subtitle1" color="text.secondary">
                   {item.title}
                 </Typography>
