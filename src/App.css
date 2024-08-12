@@ -62,8 +62,7 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+   
   }
   .Hero_Sub2{
     margin-top: 3rem !important;
@@ -161,6 +160,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
+  z-index: -1;
   justify-content: center;
 }
 .Proj_container_item{
@@ -213,8 +213,10 @@
 @media (max-width: 767px) {
   .Car {
     height: auto; /* Remove the fixed height */
+    z-index: -1;
   }
   .Car1 {
     height: auto; /* Remove the fixed height */
+    z-index: -1;
   }
 }

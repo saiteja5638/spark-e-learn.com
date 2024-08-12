@@ -11,11 +11,11 @@ export default function Services() {
   return (
     <>
       <Navbar></Navbar>
-      <h1 className='Projects_header_h1' >Only a few projects are displayed. There are many more available.</h1>
+      <h1 className='Projects_header_h1' align="center" >Only a few projects are displayed. There are many more available.</h1>
       <div className='Projects_container' >
         {modelData.map((item, index) => (
 
-          <Card sx={{ maxWidth: 345 }} className='Projects_Card'  >
+          <Card sx={{ maxWidth: 345 }} className='Projects_Card' >
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -23,6 +23,7 @@ export default function Services() {
                 height="140"
                 image={item.img1}
                 alt="green iguana"
+                
               />
               <CardContent>
                 {/* <Typography gutterBottom variant="h5" component="div">
